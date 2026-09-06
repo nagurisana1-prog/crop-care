@@ -402,7 +402,7 @@ function App() {
 
       const response =
         await fetch(
-          "http://192.168.1.10:8000/predict",
+          "https://crop-care.fastapicloud.dev/predict",
           {
             method: "POST",
             body: formData,
