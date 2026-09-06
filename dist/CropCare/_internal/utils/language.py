@@ -1,0 +1,68 @@
+translations = {
+
+    "English": {
+        "title": "🌱 AI Crop Disease Detection",
+        "select_language": "🌐 Select Language",
+        "welcome": "Welcome Farmer! 🌾",
+        "intro": "Identify crop diseases using AI by uploading or taking a picture of a crop leaf.",
+        "start": "🔍 Start Disease Detection",
+        "features": "🌟 Features",
+        "feature1": "🌱 Crop disease identification",
+        "feature2": "🤖 AI-powered image analysis",
+        "feature3": "📷 Upload or capture a leaf image",
+        "feature4": "📖 Disease information and prevention",
+        "feature5": "🌐 Multiple language support",
+        "how_it_works": "⚙️ How It Works",
+        "step1": "1. Select your language.",
+        "step2": "2. Take or upload a crop leaf image.",
+        "step3": "3. AI analyzes the image.",
+        "step4": "4. Get the disease prediction and recommendations.",
+        "about": "📖 About the Project",
+        "about_text": "This AI system helps farmers identify crop diseases from leaf images and provides useful information about the detected problem.",
+        "help": "❓ Help"
+    },
+
+    "Telugu": {
+        "title": "🌱 AI పంట వ్యాధి గుర్తింపు",
+        "select_language": "🌐 భాషను ఎంచుకోండి",
+        "welcome": "రైతులకు స్వాగతం! 🌾",
+        "intro": "పంట ఆకు చిత్రాన్ని అప్‌లోడ్ చేయడం లేదా ఫోటో తీయడం ద్వారా AI సహాయంతో పంట వ్యాధులను గుర్తించండి.",
+        "start": "🔍 వ్యాధి గుర్తింపును ప్రారంభించండి",
+        "features": "🌟 ముఖ్య లక్షణాలు",
+        "feature1": "🌱 పంట వ్యాధుల గుర్తింపు",
+        "feature2": "🤖 AI ఆధారిత చిత్ర విశ్లేషణ",
+        "feature3": "📷 ఆకు చిత్రాన్ని అప్‌లోడ్ చేయడం లేదా ఫోటో తీయడం",
+        "feature4": "📖 వ్యాధి సమాచారం మరియు నివారణ సూచనలు",
+        "feature5": "🌐 బహుభాషా మద్దతు",
+        "how_it_works": "⚙️ ఇది ఎలా పనిచేస్తుంది",
+        "step1": "1. మీ భాషను ఎంచుకోండి.",
+        "step2": "2. పంట ఆకు ఫోటో తీయండి లేదా అప్‌లోడ్ చేయండి.",
+        "step3": "3. AI చిత్రాన్ని విశ్లేషిస్తుంది.",
+        "step4": "4. వ్యాధి గుర్తింపు మరియు సూచనలు పొందండి.",
+        "about": "📖 ప్రాజెక్ట్ గురించి",
+        "about_text": "ఈ AI వ్యవస్థ ఆకు చిత్రాల ద్వారా పంట వ్యాధులను గుర్తించడంలో రైతులకు సహాయపడుతుంది మరియు గుర్తించిన సమస్య గురించి ఉపయోగకరమైన సమాచారాన్ని అందిస్తుంది.",
+        "help": "❓ సహాయం"
+    },
+
+    "Hindi": {
+        "title": "🌱 AI फसल रोग पहचान",
+        "select_language": "🌐 भाषा चुनें",
+        "welcome": "किसानों का स्वागत है! 🌾",
+        "intro": "फसल की पत्ती की तस्वीर अपलोड करके या फोटो लेकर AI की मदद से फसल के रोगों की पहचान करें।",
+        "start": "🔍 रोग पहचान शुरू करें",
+        "features": "🌟 मुख्य विशेषताएँ",
+        "feature1": "🌱 फसल रोगों की पहचान",
+        "feature2": "🤖 AI आधारित चित्र विश्लेषण",
+        "feature3": "📷 पत्ती की तस्वीर अपलोड या कैप्चर करें",
+        "feature4": "📖 रोग की जानकारी और बचाव के सुझाव",
+        "feature5": "🌐 बहुभाषी समर्थन",
+        "how_it_works": "⚙️ यह कैसे काम करता है",
+        "step1": "1. अपनी भाषा चुनें।",
+        "step2": "2. फसल की पत्ती की तस्वीर लें या अपलोड करें।",
+        "step3": "3. AI तस्वीर का विश्लेषण करेगा।",
+        "step4": "4. रोग की पहचान और सुझाव प्राप्त करें।",
+        "about": "📖 परियोजना के बारे में",
+        "about_text": "यह AI प्रणाली पत्तियों की तस्वीरों से फसल के रोगों की पहचान करने में किसानों की मदद करती है और पहचानी गई समस्या के बारे में उपयोगी जानकारी प्रदान करती है।",
+        "help": "❓ सहायता"
+    }
+}

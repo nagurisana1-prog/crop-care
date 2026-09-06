@@ -1,0 +1,137 @@
+{
+    "Pepper__bell___Bacterial_spot": {
+        "crop": "Bell Pepper",
+        "disease": "Bacterial Spot",
+        "status": "Diseased",
+        "symptoms": "Small dark spots appear on leaves and may develop into larger brown lesions. Fruits can also develop raised spots.",
+        "cause": "Bacterial infection, commonly favored by warm and humid conditions.",
+        "treatment": "Remove badly infected leaves and fruits. Avoid working with plants when they are wet. Use appropriate bacterial disease management recommended for the crop.",
+        "prevention": "Use healthy seeds, maintain good spacing, avoid overhead watering, and remove infected plant material."
+    },
+    "Pepper__bell___healthy": {
+        "crop": "Bell Pepper",
+        "disease": "Healthy",
+        "status": "Healthy",
+        "symptoms": "No major visible symptoms of disease detected.",
+        "cause": "No disease detected.",
+        "treatment": "No disease treatment is required.",
+        "prevention": "Continue proper watering, sunlight, nutrition, and regular monitoring."
+    },
+    "Potato___Early_blight": {
+        "crop": "Potato",
+        "disease": "Early Blight",
+        "status": "Diseased",
+        "symptoms": "Dark brown spots with concentric rings appear on older leaves, often surrounded by yellowing.",
+        "cause": "Fungal infection caused by Alternaria species.",
+        "treatment": "Remove infected plant material and use suitable fungicide management when necessary.",
+        "prevention": "Practice crop rotation, avoid prolonged leaf wetness, provide good spacing, and remove infected debris."
+    },
+    "Potato___healthy": {
+        "crop": "Potato",
+        "disease": "Healthy",
+        "status": "Healthy",
+        "symptoms": "No major visible symptoms of disease detected.",
+        "cause": "No disease detected.",
+        "treatment": "No disease treatment is required.",
+        "prevention": "Maintain proper irrigation, nutrition, sunlight, and regular crop inspection."
+    },
+    "Potato___Late_blight": {
+        "crop": "Potato",
+        "disease": "Late Blight",
+        "status": "Diseased",
+        "symptoms": "Dark water-soaked lesions can appear on leaves and may rapidly expand under cool and wet conditions.",
+        "cause": "Disease caused by the oomycete Phytophthora infestans.",
+        "treatment": "Remove severely infected material and use appropriate late-blight management products when required.",
+        "prevention": "Use healthy planting material, improve air circulation, avoid prolonged leaf wetness, and monitor crops regularly."
+    },
+    "Tomato_Bacterial_spot": {
+        "crop": "Tomato",
+        "disease": "Bacterial Spot",
+        "status": "Diseased",
+        "symptoms": "Small dark lesions appear on leaves, stems, and sometimes fruits.",
+        "cause": "Bacterial infection favored by warm and wet conditions.",
+        "treatment": "Remove infected plant material and follow appropriate bacterial disease management practices.",
+        "prevention": "Use disease-free seeds, avoid overhead irrigation, maintain spacing, and remove infected debris."
+    },
+    "Tomato_Early_blight": {
+        "crop": "Tomato",
+        "disease": "Early Blight",
+        "status": "Diseased",
+        "symptoms": "Brown circular lesions with concentric rings develop on older leaves and may cause leaf yellowing.",
+        "cause": "Fungal infection caused by Alternaria species.",
+        "treatment": "Remove infected leaves and use appropriate fungicide management when necessary.",
+        "prevention": "Use crop rotation, good plant spacing, proper watering, and remove infected plant debris."
+    },
+    "Tomato_healthy": {
+        "crop": "Tomato",
+        "disease": "Healthy",
+        "status": "Healthy",
+        "symptoms": "No major visible symptoms of disease detected.",
+        "cause": "No disease detected.",
+        "treatment": "No disease treatment is required.",
+        "prevention": "Maintain proper watering, sunlight, nutrition, and regular monitoring."
+    },
+    "Tomato_Late_blight": {
+        "crop": "Tomato",
+        "disease": "Late Blight",
+        "status": "Diseased",
+        "symptoms": "Dark water-soaked lesions can develop rapidly on leaves and stems, especially during cool and wet conditions.",
+        "cause": "Disease caused by Phytophthora infestans.",
+        "treatment": "Remove severely infected material and use appropriate late-blight management when required.",
+        "prevention": "Improve air circulation, avoid prolonged leaf wetness, use healthy planting material, and monitor crops regularly."
+    },
+    "Tomato_Leaf_Mold": {
+        "crop": "Tomato",
+        "disease": "Leaf Mold",
+        "status": "Diseased",
+        "symptoms": "Yellow patches may appear on the upper leaf surface with olive or grayish fungal growth underneath.",
+        "cause": "Fungal infection favored by high humidity.",
+        "treatment": "Remove affected leaves and improve ventilation. Use appropriate fungicide management when necessary.",
+        "prevention": "Reduce humidity, improve air circulation, avoid wetting leaves, and provide adequate plant spacing."
+    },
+    "Tomato_Septoria_leaf_spot": {
+        "crop": "Tomato",
+        "disease": "Septoria Leaf Spot",
+        "status": "Diseased",
+        "symptoms": "Small circular spots with dark borders and pale centers appear mainly on older leaves.",
+        "cause": "Fungal infection caused by Septoria species.",
+        "treatment": "Remove infected leaves and use suitable fungicide management when necessary.",
+        "prevention": "Avoid overhead watering, improve air circulation, rotate crops, and remove infected plant debris."
+    },
+    "Tomato_Spider_mites_Two_spotted_spider_mite": {
+        "crop": "Tomato",
+        "disease": "Two-Spotted Spider Mite Damage",
+        "status": "Diseased",
+        "symptoms": "Leaves may develop yellow speckling, bronzing, and fine webbing when infestations become severe.",
+        "cause": "Feeding damage caused by two-spotted spider mites.",
+        "treatment": "Remove heavily infested leaves and use appropriate mite-management methods.",
+        "prevention": "Monitor plants regularly, control weeds, maintain plant health, and encourage beneficial insects where appropriate."
+    },
+    "Tomato__Target_Spot": {
+        "crop": "Tomato",
+        "disease": "Target Spot",
+        "status": "Diseased",
+        "symptoms": "Brown circular lesions with concentric rings can develop on leaves and fruits.",
+        "cause": "Fungal infection caused by Corynespora cassiicola.",
+        "treatment": "Remove infected material and use suitable fungicide management when necessary.",
+        "prevention": "Improve air circulation, avoid prolonged leaf wetness, maintain spacing, and remove infected debris."
+    },
+    "Tomato__Tomato_mosaic_virus": {
+        "crop": "Tomato",
+        "disease": "Tomato Mosaic Virus",
+        "status": "Diseased",
+        "symptoms": "Leaves may show mottled light and dark green patterns, distortion, and reduced plant growth.",
+        "cause": "Viral infection caused by Tomato mosaic virus.",
+        "treatment": "There is no direct cure for viral infection. Remove infected plants and control sources of spread.",
+        "prevention": "Use clean tools and healthy planting material, wash hands before handling plants, and remove infected plants."
+    },
+    "Tomato__Tomato_YellowLeaf__Curl_Virus": {
+        "crop": "Tomato",
+        "disease": "Tomato Yellow Leaf Curl Virus",
+        "status": "Diseased",
+        "symptoms": "Leaves may curl upward, become yellow, and plants may show stunted growth.",
+        "cause": "Viral disease commonly transmitted by whiteflies.",
+        "treatment": "There is no direct cure for infected plants. Remove severely infected plants and manage the insect vector.",
+        "prevention": "Monitor and manage whiteflies, use healthy seedlings, remove infected plants, and control weeds around the crop."
+    }
+}
