@@ -1,0 +1,14 @@
+[project]
+name = "crop-care"
+version = "1.0.0"
+requires-python = "==3.12.*"
+dependencies = [
+    "fastapi[standard]",
+    "python-multipart",
+    "pillow",
+    "torch",
+    "torchvision"
+]
+
+[tool.fastapi]
+entrypoint = "backend:app"
