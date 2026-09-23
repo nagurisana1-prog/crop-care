@@ -133,5 +133,158 @@
         "cause": "Viral disease commonly transmitted by whiteflies.",
         "treatment": "There is no direct cure for infected plants. Remove severely infected plants and manage the insect vector.",
         "prevention": "Monitor and manage whiteflies, use healthy seedlings, remove infected plants, and control weeds around the crop."
+    },
+    "Mango___Anthracnose": {
+        "crop": "Mango",
+        "disease": "Anthracnose",
+        "status": "Diseased",
+        "symptoms": "Dark spots may appear on leaves, flowers, twigs, and fruits. Young shoots may wither and fruits may develop black spots and rot.",
+        "cause": "Fungal infection caused by Colletotrichum species.",
+        "treatment": "Remove and destroy severely infected plant parts. Use appropriate fungicide management according to local agricultural recommendations.",
+        "prevention": "Maintain good orchard sanitation, avoid prolonged leaf wetness, and monitor flowers and developing fruits."
+    },
+    "Mango___Bacterial_Canker": {
+        "crop": "Mango",
+        "disease": "Bacterial Canker",
+        "status": "Diseased",
+        "symptoms": "Dark angular leaf spots may develop with yellowing around them. Stem lesions, cracks, and gum-like exudation may occur.",
+        "cause": "Bacterial infection affecting mango leaves, stems, and fruits.",
+        "treatment": "Remove severely infected plant parts and maintain field sanitation. Use locally recommended bacterial disease management.",
+        "prevention": "Use healthy planting material, remove infected debris, maintain sanitation, and avoid practices that spread contaminated plant material."
+    },
+    "Mango___Cutting_Weevil": {
+        "crop": "Mango",
+        "disease": "Cutting Weevil Damage",
+        "status": "Diseased",
+        "symptoms": "Leaves may appear cleanly cut or damaged, and affected shoots may dry or become distorted.",
+        "cause": "Damage caused by mango weevil feeding activity.",
+        "treatment": "Remove and destroy badly damaged plant parts and monitor the tree for further pest activity.",
+        "prevention": "Regularly inspect new shoots, maintain orchard sanitation, and manage the pest according to local recommendations."
+    },
+    "Mango___Die_Back": {
+        "crop": "Mango",
+        "disease": "Die Back",
+        "status": "Diseased",
+        "symptoms": "Leaves may yellow and fall, while twigs and branches progressively dry and die back.",
+        "cause": "Usually associated with fungal infection and stressed or weakened plant tissue.",
+        "treatment": "Prune and destroy affected branches and maintain good orchard sanitation. Apply suitable disease management when recommended.",
+        "prevention": "Remove dead branches, maintain plant vigor, avoid unnecessary wounds, and keep the orchard clean."
+    },
+    "Mango___Gall_Midge": {
+        "crop": "Mango",
+        "disease": "Gall Midge Damage",
+        "status": "Diseased",
+        "symptoms": "Small gall-like swellings or abnormal growths may appear on leaves.",
+        "cause": "Damage caused by mango gall midge larvae feeding within plant tissue.",
+        "treatment": "Remove badly affected plant parts and monitor for further pest activity. Use locally recommended pest management if necessary.",
+        "prevention": "Inspect young leaves regularly and maintain orchard sanitation and pest monitoring."
+    },
+    "Mango___Healthy": {
+        "crop": "Mango",
+        "disease": "Healthy",
+        "status": "Healthy",
+        "symptoms": "No major visible symptoms of disease or pest damage detected.",
+        "cause": "No disease detected.",
+        "treatment": "No disease treatment is required.",
+        "prevention": "Maintain proper watering, nutrition, sunlight, orchard sanitation, and regular monitoring."
+    },
+    "Mango___Powdery_Mildew": {
+        "crop": "Mango",
+        "disease": "Powdery Mildew",
+        "status": "Diseased",
+        "symptoms": "White powdery fungal growth may appear on flowers, young leaves, and shoots. Flowers may dry and drop.",
+        "cause": "Fungal infection favored by suitable humidity and weather conditions.",
+        "treatment": "Remove severely affected plant material and use an appropriate fungicide according to local recommendations.",
+        "prevention": "Maintain good air circulation, avoid overcrowding, and monitor flowers and young growth."
+    },
+    "Mango___Sooty_Mould": {
+        "crop": "Mango",
+        "disease": "Sooty Mould",
+        "status": "Diseased",
+        "symptoms": "A black superficial coating develops on leaves and other plant surfaces, reducing photosynthetic activity.",
+        "cause": "Fungal growth on sugary honeydew produced by sap-sucking insects.",
+        "treatment": "Control the underlying sap-sucking insect infestation and gently remove the superficial mould when appropriate.",
+        "prevention": "Monitor and manage sap-sucking insects and maintain good orchard sanitation."
+    },
+    "Marigold___Alternaria_Leaf_Blight": {
+        "crop": "Marigold",
+        "disease": "Alternaria Leaf Blight",
+        "status": "Diseased",
+        "symptoms": "Brown or dark leaf spots may develop and enlarge, causing affected leaves to yellow, wither, and fall.",
+        "cause": "Fungal infection caused by Alternaria species.",
+        "treatment": "Remove severely infected plant material and avoid prolonged leaf wetness. Use a suitable fungicide according to local recommendations.",
+        "prevention": "Avoid overhead irrigation, maintain good spacing and air circulation, and remove infected plant debris."
+    },
+    "Marigold___Helathy_Leaves": {
+        "crop": "Marigold",
+        "disease": "Healthy",
+        "status": "Healthy",
+        "symptoms": "Leaves appear green and healthy with no major visible disease symptoms.",
+        "cause": "No disease detected.",
+        "treatment": "No disease treatment is required.",
+        "prevention": "Maintain proper sunlight, watering, nutrition, spacing, and regular plant inspection."
+    },
+    "Marigold___Pest_Damaged": {
+        "crop": "Marigold",
+        "disease": "Pest Damage",
+        "status": "Diseased",
+        "symptoms": "Leaves may show holes, scraping, distorted growth, yellowing, or other feeding damage.",
+        "cause": "Damage from insect pests or mites.",
+        "treatment": "Inspect the upper and lower leaf surfaces and remove heavily damaged plant parts. Use appropriate pest management when necessary.",
+        "prevention": "Regularly monitor plants for pests, remove weeds and damaged plant material, and maintain good garden sanitation."
+    },
+    "Peanut___mutated_peanut": {
+        "crop": "Peanut",
+        "disease": "Peanut Class",
+        "status": "Healthy",
+        "symptoms": "This dataset class represents a peanut type rather than a specific disease.",
+        "cause": "No disease is indicated by this class.",
+        "treatment": "No disease treatment is indicated by this classification.",
+        "prevention": "Continue normal peanut crop care and monitor plants regularly."
+    },
+    "Peanut___virgina_peanut": {
+        "crop": "Peanut",
+        "disease": "Peanut Class",
+        "status": "Healthy",
+        "symptoms": "This dataset class represents a peanut type rather than a specific disease.",
+        "cause": "No disease is indicated by this class.",
+        "treatment": "No disease treatment is indicated by this classification.",
+        "prevention": "Continue normal peanut crop care and monitor plants regularly."
+    },
+    "Rose___Healthy": {
+        "crop": "Rose",
+        "disease": "Healthy",
+        "status": "Healthy",
+        "symptoms": "No major visible symptoms of disease or pest damage detected.",
+        "cause": "No disease detected.",
+        "treatment": "No disease treatment is required.",
+        "prevention": "Maintain proper watering, sunlight, nutrition, air circulation, and regular inspection."
+    },
+    "Rose___Pest_Damage": {
+        "crop": "Rose",
+        "disease": "Pest Damage",
+        "status": "Diseased",
+        "symptoms": "Leaves may show holes, scraping, discoloration, curling, or other feeding damage.",
+        "cause": "Damage caused by insect or mite pests feeding on rose foliage or flowers.",
+        "treatment": "Inspect affected leaves and flowers, remove heavily damaged material, and use appropriate pest management when necessary.",
+        "prevention": "Regularly inspect roses, maintain good sanitation, and monitor for common rose pests."
+    },
+    "Rose___Rose_Mosaic_Virus": {
+        "crop": "Rose",
+        "disease": "Rose Mosaic Virus",
+        "status": "Diseased",
+        "symptoms": "Leaves may show yellow or white lines, bands, rings, blotches, or mottled patterns. Growth and flowering may be reduced.",
+        "cause": "A complex of viruses associated with rose mosaic disease.",
+        "treatment": "There is no cure that eliminates the virus from an infected rose. Remove severely affected plants when appropriate and use healthy planting material.",
+        "prevention": "Purchase healthy planting material and avoid propagating from infected plants."
+    },
+    "Rose___botrytis_blight": {
+        "crop": "Rose",
+        "disease": "Botrytis Blight",
+        "status": "Diseased",
+        "symptoms": "Flowers and buds may develop brown or water-soaked lesions and gray fuzzy fungal growth. Buds may rot and fail to open.",
+        "cause": "Fungal infection caused by Botrytis cinerea, favored by cool, humid, wet conditions.",
+        "treatment": "Remove and destroy infected flowers, buds, and plant debris. Improve air circulation and reduce excessive moisture.",
+        "prevention": "Maintain good sanitation, provide adequate spacing, avoid prolonged wetness, and remove infected plant material."
     }
 }
