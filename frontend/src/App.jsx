@@ -57,6 +57,9 @@ const translations = {
     notPlantTitle: "🌱 Not a Plant Leaf",
     notPlantMessage:
       "This image doesn't appear to be a plant leaf. Please upload a clear image of a crop leaf.",
+    unsupportedPlantTitle: "🌿 Unsupported Plant",
+    unsupportedPlantMessage:
+      "No data available about this plant.",
   },
 
   Telugu: {
@@ -114,6 +117,9 @@ const translations = {
     notPlantTitle: "🌱 ఇది మొక్క ఆకు కాదు",
     notPlantMessage:
       "ఈ చిత్రం మొక్క ఆకు లాగా కనిపించడం లేదు. దయచేసి పంట ఆకు యొక్క స్పష్టమైన చిత్రాన్ని అప్‌లోడ్ చేయండి.",
+    unsupportedPlantTitle: "🌿 ఈ మొక్కకు సమాచారం లేదు",
+    unsupportedPlantMessage:
+      "ఈ మొక్క గురించి డేటా అందుబాటులో లేదు.",
   },
 
   Hindi: {
@@ -171,6 +177,9 @@ const translations = {
     notPlantTitle: "🌱 यह पौधे का पत्ता नहीं है",
     notPlantMessage:
       "यह तस्वीर पौधे के पत्ते जैसी नहीं लगती। कृपया फसल के पत्ते की साफ तस्वीर अपलोड करें।",
+    unsupportedPlantTitle: "🌿 इस पौधे के बारे में जानकारी नहीं है",
+    unsupportedPlantMessage:
+      "इस पौधे के बारे में डेटा उपलब्ध नहीं है।",
   },
 };
 
@@ -409,7 +418,7 @@ function App() {
         selectedFile
       );
       const response = await fetch(
-        "https://crop-care.fastapicloud.dev/predict"
+        "https://crop-care.fastapicloud.dev/predict",
         {
           method: "POST",
           body: formData,
@@ -813,6 +822,28 @@ function App() {
 
               <p>
                 {t.notPlantMessage}
+              </p>
+
+            </div>
+
+          </div>
+
+        ) : result && result.prediction === "UNSUPPORTED_PLANT" ? (
+
+          <div className="result-card">
+
+            <div className="result-header">
+
+              <p>
+                {t.analysisComplete}
+              </p>
+
+              <h2>
+                {t.unsupportedPlantTitle}
+              </h2>
+
+              <p>
+                {t.unsupportedPlantMessage}
               </p>
 
             </div>
