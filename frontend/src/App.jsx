@@ -54,6 +54,9 @@ const translations = {
       "❌ Camera is not ready yet. Please wait a moment.",
     captureError:
       "❌ Unable to capture the photo.",
+    notPlantTitle: "🌱 Not a Plant Leaf",
+    notPlantMessage:
+      "This image doesn't appear to be a plant leaf. Please upload a clear image of a crop leaf.",
   },
 
   Telugu: {
@@ -108,6 +111,9 @@ const translations = {
       "❌ కెమెరా ఇంకా సిద్ధంగా లేదు. దయచేసి కొద్దిసేపు వేచి ఉండండి.",
     captureError:
       "❌ ఫోటోను క్యాప్చర్ చేయలేకపోయాము.",
+    notPlantTitle: "🌱 ఇది మొక్క ఆకు కాదు",
+    notPlantMessage:
+      "ఈ చిత్రం మొక్క ఆకు లాగా కనిపించడం లేదు. దయచేసి పంట ఆకు యొక్క స్పష్టమైన చిత్రాన్ని అప్‌లోడ్ చేయండి.",
   },
 
   Hindi: {
@@ -162,6 +168,9 @@ const translations = {
       "❌ कैमरा अभी तैयार नहीं है। कृपया कुछ देर प्रतीक्षा करें।",
     captureError:
       "❌ फोटो कैप्चर नहीं हो सकी।",
+    notPlantTitle: "🌱 यह पौधे का पत्ता नहीं है",
+    notPlantMessage:
+      "यह तस्वीर पौधे के पत्ते जैसी नहीं लगती। कृपया फसल के पत्ते की साफ तस्वीर अपलोड करें।",
   },
 };
 
@@ -399,15 +408,13 @@ function App() {
         "file",
         selectedFile
       );
-
-      const response =
-        await fetch(
-          "https://crop-care.fastapicloud.dev/predict",
-          {
-            method: "POST",
-            body: formData,
-          }
-        );
+      const response = await fetch(
+        "http://127.0.0.1:8000/predict",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
 
       const data =
         await response.json();
@@ -790,7 +797,29 @@ function App() {
             RESULT
         ========================================== */}
 
-        {result && (
+        {result && !result.is_plant ? (
+
+          <div className="result-card">
+
+            <div className="result-header">
+
+              <p>
+                {t.analysisComplete}
+              </p>
+
+              <h2>
+                {t.notPlantTitle}
+              </h2>
+
+              <p>
+                {t.notPlantMessage}
+              </p>
+
+            </div>
+
+          </div>
+
+        ) : result ? (
 
           <div className="result-card">
 
@@ -859,7 +888,7 @@ function App() {
                     width: `${result.confidence <= 1
                       ? result.confidence * 100
                       : result.confidence
-                      }%`,
+                      }% `,
                   }}
                 />
 
@@ -1001,7 +1030,7 @@ function App() {
                     <>
 
                       <h4>
-                        {t.treatment}
+                        💊 {t.treatment}
                       </h4>
 
                       <p>
@@ -1018,7 +1047,7 @@ function App() {
                     <>
 
                       <h4>
-                        {t.prevention}
+                        🛡️ {t.prevention}
                       </h4>
 
                       <p>
@@ -1038,7 +1067,8 @@ function App() {
 
           </div>
 
-        )}
+        ) : null}
+
 
       </section>
 

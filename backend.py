@@ -25,7 +25,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
+    "http://localhost:5176",
         "http://127.0.0.1:5173",
         "https://crop-care-amber.vercel.app",
         "https://crop-care-git-main-nagurisana1-prog.vercel.app",
@@ -35,6 +35,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 # ==========================================
 # LOAD DISEASE INFORMATION
@@ -112,6 +113,54 @@ async def predict(file: UploadFile = File(...)):
 
 
         # --------------------------------------
+        # CHECK FOR NON-PLANT IMAGE
+        # --------------------------------------
+
+        if disease_name == "NOT_A_PLANT":
+
+            return {
+                "success": True,
+                "is_plant": False,
+                "prediction": "NOT_A_PLANT",
+                "confidence": round(
+                    float(confidence),
+                    2
+                ),
+                "crop": "",
+                "disease": "Not a plant leaf",
+                "status": "Not a plant",
+                "symptoms": "",
+                "cause": "",
+                "treatment": "",
+                "prevention": ""
+            }
+
+
+        # --------------------------------------
+        # CHECK FOR UNSUPPORTED PLANT
+        # --------------------------------------
+
+        if disease_name == "UNSUPPORTED_PLANT":
+
+            return {
+                "success": True,
+                "is_plant": True,
+                "prediction": "UNSUPPORTED_PLANT",
+                "confidence": round(
+                    float(confidence),
+                    2
+                ),
+                "crop": "",
+                "disease": "No data available about this plant",
+                "status": "Unsupported plant",
+                "symptoms": "",
+                "cause": "",
+                "treatment": "",
+                "prevention": ""
+            }
+
+
+        # --------------------------------------
         # GET DISEASE INFORMATION
         # --------------------------------------
 
@@ -128,6 +177,8 @@ async def predict(file: UploadFile = File(...)):
         return {
 
             "success": True,
+
+            "is_plant": True,
 
             "prediction": disease_name,
 
