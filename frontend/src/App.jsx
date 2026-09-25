@@ -409,7 +409,7 @@ function App() {
         selectedFile
       );
       const response = await fetch(
-        "http://127.0.0.1:8000/predict",
+        "https://crop-care.fastapicloud.dev/predict"
         {
           method: "POST",
           body: formData,
