@@ -845,7 +845,9 @@ function App() {
               <p>
                 {t.unsupportedPlantMessage}
               </p>
-
+              <p>
+                Confidence: {result.confidence}%
+              </p>
             </div>
 
           </div>
