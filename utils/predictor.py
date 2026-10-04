@@ -128,10 +128,6 @@ def predict_disease(image):
 
     image = image.convert("RGB")
 
-    # Reject images that do not look plant-like
-    if not looks_like_plant_image(image):
-        return "NOT_A_PLANT", 0.0
-
     image_tensor = transform(image)
     image_tensor = image_tensor.unsqueeze(0)
     image_tensor = image_tensor.to(DEVICE)
